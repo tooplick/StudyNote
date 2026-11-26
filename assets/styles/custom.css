@@ -5,3 +5,64 @@
   font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC",
     "Source Han Sans SC", system-ui, sans-serif;
 }
+
+/* 首页（landing 布局）：整页内容在视口内纵向、横向居中 */
+.book-layout-landing {
+  .book-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .book-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 0;
+    padding-block: calc(var(--space-16) * 2);
+  }
+
+  .book-footer {
+    justify-content: center;
+    padding: var(--space-16) 0;
+  }
+}
+
+/* 亮/暗主题切换按钮（在主题 header 中显示，桌面端和移动端都可用） */
+.book-header {
+  .book-theme-toggle {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    line-height: 0;
+
+    &:hover .book-icon {
+      opacity: 0.7;
+    }
+
+    .book-icon {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+/* 侧边栏：默认收起的分组左侧显示向右箭头，展开后朝下 */
+.book-menu {
+  label:has(+ ul) > .book-icon:last-child {
+    order: -1;
+    margin-inline-end: var(--space-4);
+  }
+
+  input.toggle:checked + label > .book-icon:last-child {
+    transform: rotate(90deg);
+  }
+}
+
+/* 侧边栏一级分组标题加粗（区别于其下页面） */
+.book-menu-content > nav > ul > li > a,
+.book-menu-content > nav > ul > li > label > a {
+  font-weight: bolder;
+}

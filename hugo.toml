@@ -9,7 +9,7 @@ enableGitInfo = true
 
 [params]
   # light | dark | auto（跟随系统）；另有 contrast-*、catppuccin-*、ayu-* 配色
-  BookTheme = 'auto'
+  BookTheme = 'light'
   BookSection = 'docs'
   BookSearch = true
   BookBreadcrumbs = true
@@ -24,7 +24,7 @@ enableGitInfo = true
 
 # 侧边栏底部的导航
 [[menu.after]]
-  name = '文档'
+  name = 'docs'
   pageRef = '/docs/'
   weight = 10
 [[menu.after]]

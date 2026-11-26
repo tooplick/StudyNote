@@ -42,7 +42,7 @@
 | `_vendor/` | 已 vendor 的主题（提交进 git） |
 | `content/_index.md` | 首页（landing 布局、不在侧边栏、不进搜索） |
 | `content/docs/_index.md` | 「目录」章节页（说明 + 阅读顺序） |
-| `content/docs/posts/*.md` | 5 篇笔记（从根目录迁移）及以后的笔记 |
+| `content/docs/{basic,components,electromech}/*.md` | 按「基础 / 常用器件 / 机电与传感」分类的笔记（原 `docs/posts/`） |
 | `archetypes/docs.md` | `hugo new content docs/posts/x.md` 的模板 |
 | `i18n/zh.yaml` | 主题缺失的中文界面文案 |
 | `assets/styles/custom.css` | 中文字体栈（主题 `index.yaml` 最后加载） |

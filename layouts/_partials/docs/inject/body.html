@@ -1,0 +1,3 @@
+{{- with resources.Get "theme-toggle.js" -}}
+<script>{{ .Content | safeJS }}</script>
+{{- end }}
