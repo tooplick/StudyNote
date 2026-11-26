@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+locale = 'zh-cn'
+title = '电工学习笔记'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/alex-shpak/hugo-book'
