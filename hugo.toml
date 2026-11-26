@@ -1,7 +1,33 @@
-baseURL = 'https://example.org/'
-locale = 'zh-cn'
+baseURL = 'https://electric.ygking.top/'
 title = '电工学习笔记'
+theme = 'hugo-book'
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
 
-[module]
-  [[module.imports]]
-    path = 'github.com/alex-shpak/hugo-book'
+# “最后修改”链接依赖每条内容的最近一次提交
+enableGitInfo = true
+
+[params]
+  # light | dark | auto（跟随系统）；另有 contrast-*、catppuccin-*、ayu-* 配色
+  BookTheme = 'auto'
+  BookSection = 'docs'
+  BookSearch = true
+  BookBreadcrumbs = true
+  BookDateFormat = '2006-01-02'
+  BookRepo = 'https://github.com/tooplick/StudyNote'
+  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/master/{{ .Path }}'
+
+# Required for mermaid and katex shortcodes
+[markup.goldmark.renderer]
+  unsafe = true
+
+# 侧边栏底部的导航
+[[menu.after]]
+  name = '文档'
+  pageRef = '/docs/'
+  weight = 10
+[[menu.after]]
+  name = 'GitHub'
+  url = 'https://github.com/tooplick/StudyNote'
+  weight = 20

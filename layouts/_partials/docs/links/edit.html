@@ -1,0 +1,7 @@
+{{/* 修正主题版在 Windows 下的路径：File.Path 用反斜杠分隔且不含 content/ 前缀（Hugo 0.163 的 File.Path 相对 content 目录），补上前缀后再套 BookEditLink */}}
+{{- $path := printf "content/%s" (replace .File.Path "\\" "/") -}}
+{{- return partial "docs/text/template" (dict "Template" .Site.Params.BookEditLink "Context" (dict
+  "Site" .Site
+  "Page" .Page
+  "Path" $path
+)) -}}

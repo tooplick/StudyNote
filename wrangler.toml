@@ -1,0 +1,9 @@
+name = "studynote"
+compatibility_date = "2026-11-26"
+
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[vars]
+  HUGO_VERSION = "0.163.3"

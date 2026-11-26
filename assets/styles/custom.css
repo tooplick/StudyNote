@@ -1,0 +1,7 @@
+/* 只追加中文优先字体，不覆盖主题其他变量 */
+.book-page,
+.book-menu,
+.book-toc {
+  font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC",
+    "Source Han Sans SC", system-ui, sans-serif;
+}
