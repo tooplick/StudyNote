@@ -1,0 +1,15 @@
+{{- $destination := .Destination -}}
+
+{{- if .Page.Param "BookPageLinks" | default false -}}
+{{- with .Page.GetPage $destination -}}
+  {{- $.Page.Store.Add "bookLinks" (slice .Page) -}}
+  {{-  .Page.Store.Add "bookBacklinks" (slice $.Page) -}}
+{{- end -}}
+{{- end -}}
+
+{{- if .Page.Site.Params.BookPortableLinks -}}
+  {{- $destination = partial "docs/links/portable-link" . -}}
+{{- end -}}
+{{- $newTab := or (hasSuffix $destination ".pdf") (eq .Title "在新标签页打开") -}}
+<a href="{{ $destination | safeURL }}"{{ if $newTab }} target="_blank" rel="noopener"{{ end }}{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}

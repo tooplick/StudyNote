@@ -4,7 +4,6 @@ theme = 'hugo-book'
 defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = false
 
-# “最后修改”链接依赖每条内容的最近一次提交
 enableGitInfo = true
 
 [params]

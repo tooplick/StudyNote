@@ -66,3 +66,12 @@
 .book-menu-content > nav > ul > li > label > a {
   font-weight: bolder;
 }
+
+/* 侧边栏分组图标：文字前留出间距，图标略大于字号 */
+.book-menu-content > nav > ul > li > a > .book-icon:not(:last-child),
+.book-menu-content > nav > ul > li > label > a > .book-icon:not(:last-child) {
+  width: 1.2em;
+  height: 1.2em;
+  margin-inline-end: var(--space-4);
+  vertical-align: -0.2em;
+}
