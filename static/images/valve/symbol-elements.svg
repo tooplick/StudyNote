@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 165" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 阀体 -->
+    <rect x="25" y="45" width="120" height="60"/>
+    <!-- 气流方向 -->
+    <line x1="198" y1="112" x2="222" y2="48" marker-end="url(#arrow)"/>
+    <!-- 接口封闭不导通 -->
+    <line x1="305" y1="62" x2="345" y2="62"/>
+    <line x1="325" y1="62" x2="325" y2="112"/>
+    <!-- 弹簧 -->
+    <polyline points="385,90 395,70 409,110 423,70 437,110 451,70 461,90"/>
+    <!-- 线圈：矩形内一个三角形 + 一段斜线 -->
+    <rect x="520" y="68" width="82" height="46"/>
+    <line x1="562" y1="114" x2="584" y2="68"/>
+    <polygon points="520,68 520,114 548,91" fill="#333" stroke="none"/>
+  </g>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="15" fill="#333" text-anchor="middle">
+    <text x="85" y="145">阀体</text>
+    <text x="210" y="145">气流方向</text>
+    <text x="325" y="145">接口封闭不导通</text>
+    <text x="424" y="145">弹簧</text>
+    <text x="561" y="145">线圈（电磁铁）</text>
+  </g>
+</svg>
