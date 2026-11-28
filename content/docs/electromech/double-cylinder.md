@@ -11,7 +11,7 @@ draft: false
 
 ![双缸往复原理图](/images/double-cylinder.png "双缸往复原理图")
 
-> 原图 PDF：[双缸往复.pdf](/pdf/double-cylinder.pdf "在新标签页打开")（新标签页打开）
+> 原图 PDF：[双缸往复.pdf](/pdf/double-cylinder.pdf)
 
 ## 一、气路部分
 
