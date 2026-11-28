@@ -28,6 +28,11 @@
   }
 }
 
+/* 暗色主题下线描 SVG 反色，避免深色线条在深色底上看不清 */
+:root[data-theme="dark"] .book-page img[src$=".svg"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 /* 亮/暗主题切换按钮（在主题 header 中显示，桌面端和移动端都可用） */
 .book-header {
   .book-theme-toggle {

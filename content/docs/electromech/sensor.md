@@ -24,7 +24,9 @@ draft: false
 
 ## 一、气缸磁性开关的接线
 
-气缸磁性开关装在缸筒上，活塞到位时被磁场触发，输出信号给继电器或 PLC，检测到的位置就是气缸的行程终点（气缸与阀见 [气动基础](/docs/electromech/pneumatics/)、[电磁阀](/docs/electromech/solenoid-valve/)）。按引线数量分两线制和三线制，三线制再按输出类型分 PNP 与 NPN。
+气缸磁性开关装在缸筒上，活塞到位时被磁场触发，输出信号给继电器或 PLC，检测到的位置就是气缸的行程终点（气缸与阀见 [气动基础](/docs/electromech/pneumatics/)、[电磁阀](/docs/electromech/solenoid-valve/)）。按引线数量分两线制和三线制，三线制再按输出类型分 PNP 与 NPN。四种接法的对照如下：
+
+![气缸磁性开关四种接法：两线制方式一/方式二、三线制 PNP/NPN](/images/sensor/magnetic-switch-wiring.svg "磁性开关四种接法")
 
 ### 1. 两线制
 
