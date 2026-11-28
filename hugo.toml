@@ -13,7 +13,7 @@ enableGitInfo = true
   BookSearch = true
   BookBreadcrumbs = true
   BookDateFormat = '2006-01-02'
-  BookRepo = 'https://github.com/tooplick/StudyNote'
+  BookRepo = 'https://github.com/tooplick/Electric-study-note'
   BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
   BookEditLink = '{{ .Site.Params.BookRepo }}/edit/master/{{ .Path }}'
 
@@ -28,5 +28,5 @@ enableGitInfo = true
   weight = 10
 [[menu.after]]
   name = 'GitHub'
-  url = 'https://github.com/tooplick/StudyNote'
+  url = 'https://github.com/tooplick/Electric-study-note'
   weight = 20
