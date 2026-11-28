@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" role="img">
+  <g fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="200" y="46" width="65" height="162" fill="#f2f2f2" stroke="#333" stroke-width="0"/>
+  <polyline points="110,104 200,104 200,58 330,58 330,104 400,104" fill="none" stroke="#333" stroke-width="2"/>
+  <polyline points="110,196 265,196 265,150 330,150 330,196 400,196" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="46" x2="200" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="330" y1="46" x2="330" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="265" y1="46" x2="265" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="200" y1="228" x2="265" y2="228" stroke="#333" stroke-width="1.4"/>
+  <line x1="200" y1="223" x2="200" y2="233" stroke="#333" stroke-width="1.4"/>
+  <line x1="265" y1="223" x2="265" y2="233" stroke="#333" stroke-width="1.4"/>
+  <line x1="110" y1="262" x2="400" y2="262" stroke="#333" stroke-width="1.6"/>
+  <polygon points="400,262 389.0,267.0 389.0,257.0" fill="#333" stroke="none"/>
+  <line x1="445" y1="30" x2="445" y2="292" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="4 8"/>
+  <rect x="655" y="46" width="110" height="162" fill="#f2f2f2" stroke="#333" stroke-width="0"/>
+  <polyline points="520,104 590,104 590,58 655,58 655,104 810,104" fill="none" stroke="#333" stroke-width="2"/>
+  <polyline points="520,196 590,196 590,150 765,150 765,196 810,196" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="590" y1="46" x2="590" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="655" y1="46" x2="655" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="765" y1="46" x2="765" y2="208" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="6 6"/>
+  <line x1="655" y1="228" x2="765" y2="228" stroke="#333" stroke-width="1.4"/>
+  <line x1="655" y1="223" x2="655" y2="233" stroke="#333" stroke-width="1.4"/>
+  <line x1="765" y1="223" x2="765" y2="233" stroke="#333" stroke-width="1.4"/>
+  <line x1="520" y1="262" x2="810" y2="262" stroke="#333" stroke-width="1.6"/>
+  <polygon points="810,262 799.0,267.0 799.0,257.0" fill="#333" stroke="none"/>
+  </g>
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+  <text x="110" y="36" font-size="17" text-anchor="start" fill="#333" font-weight="bold">通电延时型</text>
+  <text x="96" y="96" font-size="14" text-anchor="end" fill="#7a7a7a">线圈电压</text>
+  <text x="96" y="188" font-size="14" text-anchor="end" fill="#7a7a7a">常开触点</text>
+  <text x="232.5" y="248" font-size="14" text-anchor="middle" fill="#333">Δt 设定延时</text>
+  <text x="412" y="267" font-size="15" text-anchor="start" fill="#333">t</text>
+  <text x="200" y="288" font-size="13" text-anchor="middle" fill="#7a7a7a">得电</text>
+  <text x="330" y="288" font-size="13" text-anchor="middle" fill="#7a7a7a">失电</text>
+  <text x="520" y="36" font-size="17" text-anchor="start" fill="#333" font-weight="bold">断电延时型</text>
+  <text x="506" y="96" font-size="14" text-anchor="end" fill="#7a7a7a">线圈电压</text>
+  <text x="506" y="188" font-size="14" text-anchor="end" fill="#7a7a7a">常开触点</text>
+  <text x="710.0" y="248" font-size="14" text-anchor="middle" fill="#333">Δt 设定延时</text>
+  <text x="822" y="267" font-size="15" text-anchor="start" fill="#333">t</text>
+  <text x="590" y="288" font-size="13" text-anchor="middle" fill="#7a7a7a">得电</text>
+  <text x="655" y="288" font-size="13" text-anchor="middle" fill="#7a7a7a">失电</text>
+  <text x="110" y="314" font-size="13.5" text-anchor="start" fill="#7a7a7a">底色区间即设定延时 Δt：通电延时型线圈得电后延时动作、失电立即复位；断电延时型线圈得电立即动作、失电后延时复位。</text>
+  </g>
+</svg>
