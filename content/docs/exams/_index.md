@@ -2,7 +2,7 @@
 title: "题库"
 bookIcon: "exams"
 weight: 50
-bookCollapseSection: false
+bookCollapseSection: true
 ---
 
 自动化电工基础理论测试的题目与答案，按知识分类整理。每道题都保留了原题序号，答案以原答案为准；原答案写作“略”或缺失的，标为**补充**，即整理时按标准内容补写，复习时请与教材核对。
