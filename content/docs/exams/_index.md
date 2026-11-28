@@ -1,6 +1,5 @@
 ---
 title: "题库"
-bookIcon: "exams"
 weight: 50
 bookCollapseSection: true
 ---
