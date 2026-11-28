@@ -72,6 +72,31 @@
   font-weight: bolder;
 }
 
+/* 极简滚动条：细、无轨道底色，仅悬停时加深 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--gray-500) 40%, transparent) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--gray-500) 40%, transparent);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--gray-500) 70%, transparent);
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 /* 侧边栏分组图标：文字前留出间距，图标略大于字号 */
 .book-menu-content > nav > ul > li > a > .book-icon:not(:last-child),
 .book-menu-content > nav > ul > li > label > a > .book-icon:not(:last-child) {
