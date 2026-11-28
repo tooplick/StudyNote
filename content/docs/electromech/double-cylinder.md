@@ -9,7 +9,7 @@ draft: false
 
 本篇整理自 FluidSIM-P 仿真图纸（最新版）：左侧为 24V 继电器控制线路，右侧为两路气动执行部分。
 
-![双缸往复原理图](/pdf/double-cylinder.pdf "双缸往复原理图")
+![双缸往复原理图](/images/double-cylinder.png "双缸往复原理图")
 
 > 原图 PDF：[双缸往复.pdf](/pdf/double-cylinder.pdf "在新标签页打开")（新标签页打开）
 
